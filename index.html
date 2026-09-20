@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111914">
+<meta name="description" content="بهزاد پارسا؛ مشاور تخصصی املاک در شهرک شهید خرازی منطقه ۲۲ و شهرک تندگویان منطقه ۲۱ تهران. فروش، اجاره، تهاتر و خرید و فروش امتیاز پروژه‌های در حال ساخت.">
+<title>بهزاد پارسا | مشاور تخصصی املاک منطقه ۲۲ و ۲۱ تهران</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+:root{
+  --bg:#0d1311; --panel:#141c18; --panel2:#19231e; --gold:#c7a66a;
+  --gold2:#e0c98f; --text:#f4f0e7; --muted:#b8b7ae; --line:rgba(199,166,106,.22);
+  --green:#1f3329; --green2:#294638; --white:#fff;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 85% 0%,#21352b 0,transparent 32%),var(--bg);color:var(--text);font-family:Vazirmatn,Arial,sans-serif;line-height:1.8}
+a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(13,19,17,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800}.mark{width:43px;height:43px;border:1px solid var(--gold);border-radius:13px;display:grid;place-items:center;position:relative;overflow:hidden}
+.mark:before{content:"";width:18px;height:27px;border:3px solid var(--gold);border-bottom:0;border-radius:10px 10px 0 0}.mark:after{content:"";position:absolute;width:9px;height:4px;background:var(--gold);bottom:8px;border-radius:3px}
+.navlinks{display:flex;gap:22px;color:#d8d4ca;font-size:14px}.navlinks a:hover{color:var(--gold2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:13px;padding:12px 18px;border:1px solid var(--gold);font-weight:700;cursor:pointer;transition:.2s}
+.btn.gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111}.btn.ghost{background:transparent;color:var(--text)}.btn:hover{transform:translateY(-2px)}
+.hero{padding:82px 0 55px}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:45px;align-items:center}
+.eyebrow{color:var(--gold2);font-weight:700;letter-spacing:.2px}.hero h1{font-size:clamp(34px,5vw,67px);line-height:1.2;margin:15px 0}.hero h1 span{color:var(--gold2)}
+.hero p{font-size:18px;color:var(--muted);max-width:690px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.hero-card{border:1px solid var(--line);background:linear-gradient(145deg,rgba(41,70,56,.65),rgba(20,28,24,.85));padding:26px;border-radius:28px;box-shadow:0 25px 80px rgba(0,0,0,.25)}
+.logo-lockup{display:flex;align-items:center;gap:17px;padding-bottom:22px;border-bottom:1px solid var(--line)}.logo-big{width:70px;height:70px;border:2px solid var(--gold);border-radius:21px;display:grid;place-items:center}
+.logo-big:before{content:"⌂";font-size:42px;color:var(--gold2);line-height:1}
+.hero-card h3{margin:18px 0 4px}.hero-card small{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}.stat{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:18px;padding:16px}.stat b{font-size:27px;color:var(--gold2);display:block}.stat span{font-size:12px;color:var(--muted)}
+section{padding:75px 0}.section-title{max-width:720px;margin-bottom:32px}.section-title h2{font-size:clamp(27px,4vw,42px);margin:0 0 9px}.section-title p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:22px;padding:23px}.card h3{margin:0 0 7px}.card p{color:var(--muted);margin:0}.icon{width:45px;height:45px;border-radius:14px;background:rgba(199,166,106,.1);display:grid;place-items:center;color:var(--gold2);font-size:22px;margin-bottom:15px}
+.project{display:grid;grid-template-columns:1fr 1fr;gap:18px}.project .card{min-height:250px}.tag{display:inline-block;border:1px solid var(--line);color:var(--gold2);border-radius:999px;padding:4px 10px;font-size:12px;margin-bottom:13px}
+.features{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.feature{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--line);padding:13px 0}.feature b{display:block}.feature span{color:var(--muted);font-size:13px}
+.filters{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:20px}.filter{background:transparent;color:var(--muted);border:1px solid var(--line);padding:9px 13px;border-radius:12px;cursor:pointer;font-family:inherit}.filter.active,.filter:hover{background:rgba(199,166,106,.1);color:var(--gold2);border-color:var(--gold)}
+.listings{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.listing{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--panel)}.listing-img{height:170px;background:linear-gradient(135deg,#273d31,#111815);display:grid;place-items:center;color:var(--gold2);font-size:14px}.listing-body{padding:17px}.listing-body h3{margin:0 0 5px}.meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:12px}.price{color:var(--gold2);font-weight:800;margin-top:12px}
+.cta{border:1px solid var(--gold);border-radius:30px;padding:42px;background:radial-gradient(circle at 10% 10%,rgba(199,166,106,.14),transparent 40%),linear-gradient(135deg,#1c3027,#111714);display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{margin:0 0 8px}.cta p{color:var(--muted);margin:0}
+form{display:grid;gap:12px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}input,select,textarea{width:100%;background:#0e1512;border:1px solid var(--line);color:var(--text);border-radius:13px;padding:13px;font-family:inherit;outline:none}textarea{min-height:120px;resize:vertical}input:focus,select:focus,textarea:focus{border-color:var(--gold)}
+footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted);font-size:13px}.footer-grid{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.mobile{display:none}.floating{position:fixed;left:18px;bottom:18px;z-index:30;display:flex;gap:8px}.floating a{box-shadow:0 10px 35px rgba(0,0,0,.35)}.bottom-bar{display:none}.notice{font-size:12px;color:#aaa;margin-top:12px}
+@media(max-width:850px){.navlinks{display:none}.mobile{display:inline-flex}.hero-grid,.project{grid-template-columns:1fr}.grid,.listings{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.features{grid-template-columns:1fr}.cta{display:block}.cta .btn{margin-top:18px}}
+@media(max-width:520px){.floating{display:none}.bottom-bar{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;bottom:0;left:0;right:0;z-index:40;background:rgba(13,19,17,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line)}.bottom-bar a{text-align:center;padding:11px 5px;color:var(--gold2);font-size:12px;font-weight:700;border-left:1px solid var(--line)}.hero{padding-top:55px}.grid,.listings,.formgrid{grid-template-columns:1fr}.hero p{font-size:16px}.nav{height:68px}.btn{padding:11px 14px}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"بهزاد پارسا","telephone":"+989103920194","areaServed":["تهران منطقه ۲۲","تهران منطقه ۲۱"],"description":"مشاور تخصصی املاک در شهرک شهید خرازی منطقه ۲۲ و شهرک تندگویان منطقه ۲۱ تهران."}</script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top"><span class="mark"></span><span>پارسا | املاک تخصصی</span></a>
+    <nav class="navlinks">
+      <a href="#listings">فایل‌ها</a><a href="#profile">درباره من</a><a href="#kharazi">شهرک خرازی</a><a href="#tandgouyan">شهرک تندگویان</a><a href="#services">خدمات</a><a href="#contact">تماس</a>
+    </nav>
+    <a class="btn gold mobile" href="tel:09103920194">تماس</a>
+  </div>
+</header>
+
+<div class="floating"><a class="btn gold" href="https://wa.me/989103920194" target="_blank" rel="noopener">واتساپ</a><a class="btn ghost" href="tel:09103920194">تماس</a></div>
+
+<main id="top">
+<section class="hero">
+<div class="container hero-grid">
+  <div>
+    <div class="eyebrow">مشاوره تخصصی و فایل‌یابی هدفمند در تهران</div>
+    <h1>ملک مناسب را<br><span>دقیق‌تر پیدا کن.</span></h1>
+    <p>بهزاد پارسا (نجفی)، مشاور تخصصی املاک در برج‌های شهرک شهید خرازی منطقه ۲۲ و شهرک تندگویان منطقه ۲۱ تهران؛ فروش، اجاره، تهاتر و خرید و فروش امتیاز پروژه‌های در حال ساخت.</p>
+    <div class="actions">
+      <a class="btn gold" href="#listings">مشاهده فایل‌های سایت</a>
+      <a class="btn ghost" href="#request">درخواست پیدا کردن ملک</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>۸۱۴۰</b><span>واحد شهرک شهید خرازی</span></div>
+      <div class="stat"><b>۴۴</b><span>بلوک در ۵ ردیف</span></div>
+      <div class="stat"><b>۳۰</b><span>طبقه در بلندترین بلوک‌ها</span></div>
+      <div class="stat"><b>۲</b><span>منطقه تخصصی فعالیت</span></div>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="logo-lockup"><div class="logo-big">⌂</div><div><strong>PARSA REAL ESTATE</strong><br><small>مشاور تخصصی املاک منطقه ۲۲ و ۲۱</small></div></div>
+    <h3>بهزاد پارسا (نجفی)</h3>
+    <small>مشاور تخصصی املاک در برج‌های برند منطقه ۲۲ و پروژه‌های منتخب منطقه ۲۱ تهران</small>
+    <div class="actions"><a class="btn gold" href="tel:09103920194">۰۹۱۰۳۹۲۰۱۹۴</a><a class="btn ghost" href="https://wa.me/989103920194">واتساپ</a></div>
+    <div class="notice">تلگرام و اینستاگرام بعداً به سایت اضافه می‌شوند.</div>
+  </div>
+</div>
+</section>
+
+
+<section id="profile">
+<div class="container">
+<div class="section-title">
+<h2>چهره و اعتبار برند پارسا</h2>
+<p>این بخش برای دو تصویر حرفه‌ای از مشاور طراحی شده است. تصاویر واقعی شما بعداً جایگزین کادرهای آماده می‌شوند.</p>
+</div>
+<div class="project">
+<div class="card">
+<div class="listing-img" style="height:360px;border-radius:18px;margin-bottom:16px">عکس اول بهزاد پارسا<br><small>جای تصویر اصلی</small></div>
+<h3>بهزاد پارسا (نجفی)</h3>
+<p>مشاور تخصصی املاک در برج‌های برند منطقه ۲۲ و شهرک تندگویان منطقه ۲۱ تهران.</p>
+</div>
+<div class="card">
+<div class="listing-img" style="height:360px;border-radius:18px;margin-bottom:16px">عکس دوم بهزاد پارسا<br><small>جای تصویر دوم — قابل اصلاح و روتوش</small></div>
+<h3>معرفی مشاور</h3>
+<p>فروش، اجاره، تهاتر، سرمایه‌گذاری و خرید و فروش امتیاز پروژه‌های منتخب.</p>
+</div>
+</div>
+<div class="card" style="margin-top:18px">
+<h3>گالری شهرک و فایل‌ها</h3>
+<p>محل آماده برای عکس‌های واقعی، ویدئوهای معرفی شهرک، نما، لابی، امکانات، واحدها، پلان‌ها و نقشه ۴۴ بلوک. تصاویر و ویدئوها بعداً توسط شما اضافه می‌شوند.</p>
+<div class="features" style="margin-top:10px">
+<div class="feature"><div class="icon">📷</div><div><b>گالری عکس</b><span>قابل توسعه برای تعداد زیاد تصویر</span></div></div>
+<div class="feature"><div class="icon">🎬</div><div><b>ویدئو</b><span>محل آماده برای ویدئوی معرفی شهرک و فایل‌ها</span></div></div>
+<div class="feature"><div class="icon">🗺️</div><div><b>نقشه ۴۴ بلوک</b><span>بعداً با نقشه واقعی شما تکمیل می‌شود</span></div></div>
+<div class="feature"><div class="icon">📐</div><div><b>پلان واحدها</b><span>برای پلان‌های ۱۰۲ تا ۱۳۵ متر و تیپ‌های مختلف</span></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="quick">
+<div class="container">
+<div class="grid">
+<div class="card"><span class="tag">فایل جدید</span><h3>فایل‌های تازه و اختصاصی</h3><p>فایل‌های جدید سایت در این بخش قرار می‌گیرند تا مشتری سریع‌تر به گزینه‌های تازه دسترسی داشته باشد.</p></div>
+<div class="card"><span class="tag">فایل فوری</span><h3>فرصت‌های فوری</h3><p>فایل‌هایی که نیاز به پیگیری سریع دارند، اینجا برجسته می‌شوند.</p></div>
+<div class="card"><span class="tag">درخواست شخصی</span><h3>اگر فایل مناسب ندیدی</h3><p>درخواستت را ثبت کن تا بر اساس متراژ، بودجه و نوع معامله فایل‌یابی شود.</p></div>
+</div>
+</div>
+</section>
+
+<section id="kharazi">
+<div class="container">
+<div class="section-title"><h2>شهرک شهید خرازی؛ یک شهرک، یک بازار کامل</h2><p>معرفی فشرده پروژه برای خریدار، مستأجر و سرمایه‌گذار؛ اطلاعات کامل‌تر با دریافت نقشه، پلان و تصاویر واقعی تکمیل می‌شود.</p></div>
+<div class="project">
+<div class="card"><span class="tag">۴۴ بلوک | ۵ ردیف | ۸۱۴۰ واحد</span><h3>ساختار شهرک</h3><p>ردیف اول: ۱۲ بلوک ۳۰ طبقه. ردیف دوم: ۱۲ بلوک ۲۵ طبقه. ردیف سوم: ۸ بلوک ۲۵ طبقه. ردیف چهارم: ۸ بلوک ۲۵ طبقه که ۴ بلوک آن در حال ساخت و ۴ بلوک آماده و دارای سکونت هستند. ردیف پنجم: ۴ بلوک ۲۰ طبقه.</p></div>
+<div class="card"><span class="tag">برای زندگی روزمره</span><h3>امکانات داخل شهرک</h3><div class="features">
+<div class="feature"><div class="icon">🛒</div><div><b>خرید روزانه</b><span>بازار میوه و تره‌بار و هایپرمارکت‌های بزرگ</span></div></div>
+<div class="feature"><div class="icon">🏪</div><div><b>حدود ۱۴۰ واحد تجاری</b><span>انواع خدمات و فروشگاه‌های موردنیاز</span></div></div>
+<div class="feature"><div class="icon">🏫</div><div><b>مدارس دخترانه و پسرانه</b><span>مقاطع مختلف تحصیلی</span></div></div>
+<div class="feature"><div class="icon">🏥</div><div><b>درمانگاه مجهز</b><span>خدمات درمانی داخل شهرک</span></div></div>
+<div class="feature"><div class="icon">⚽</div><div><b>زمین فوتبال</b><span>چمن مصنوعی</span></div></div>
+<div class="feature"><div class="icon">🚇</div><div><b>دسترسی به مترو</b><span>حدود ۱۰ دقیقه با خودرو و ۲۰ دقیقه پیاده طبق اطلاعات ارائه‌شده</span></div></div>
+</div></div>
+</div>
+</div>
+</section>
+
+<section id="tandgouyan">
+<div class="container">
+<div class="section-title"><h2>منطقه ۲۱؛ شهرک تندگویان</h2><p>یکی از حوزه‌های تخصصی فعالیت پارسا در کنار شهرک شهید خرازی؛ فایل‌های خرید، فروش، اجاره و فرصت‌های سرمایه‌گذاری.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🏢</div><h3>فایل‌های منتخب</h3><p>فایل‌های واقعی و قابل پیگیری، با اطلاعاتی که برای تصمیم‌گیری خریدار لازم است.</p></div>
+<div class="card"><div class="icon">📈</div><h3>سرمایه‌گذاری</h3><p>معرفی فرصت‌های سرمایه‌گذاری و بررسی فایل‌های مناسب با بودجه و هدف مشتری.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>تهاتر</h3><p>ثبت و پیگیری فایل‌های تهاتری بر اساس شرایط طرفین.</p></div>
+</div>
+</div>
+</section>
+
+<section id="listings">
+<div class="container">
+<div class="section-title"><h2>فایل‌های موجود</h2><p>این قسمت برای فایل‌های واقعی تو طراحی شده؛ هر زمان مشخصات و عکس‌ها را بفرستی، جای نمونه‌ها قرار می‌گیرند.</p></div>
+<div class="filters">
+<button class="filter active" data-filter="all">همه</button><button class="filter" data-filter="sale">فروش</button><button class="filter" data-filter="rent">اجاره</button><button class="filter" data-filter="swap">تهاتر</button><button class="filter" data-filter="invest">سرمایه‌گذاری</button>
+</div>
+<div class="listings">
+<div class="listing" data-type="sale"><div class="listing-img">تصویر واقعی واحد بعداً اضافه می‌شود</div><div class="listing-body"><span class="tag">جدید</span><h3>فایل فروش | ۱۰۲ متر</h3><div class="meta"><span>۲ خواب</span><span>•</span><span>طبقه قابل انتخاب</span><span>•</span><span>شهرک خرازی</span></div><div class="price">قیمت: برای درج توسط مشاور</div></div></div>
+<div class="listing" data-type="rent"><div class="listing-img">تصویر واقعی واحد بعداً اضافه می‌شود</div><div class="listing-body"><span class="tag">فوری</span><h3>فایل اجاره</h3><div class="meta"><span>شهرک خرازی</span><span>•</span><span>فایل اختصاصی</span></div><div class="price">رهن و اجاره: برای درج توسط مشاور</div></div></div>
+<div class="listing" data-type="invest"><div class="listing-img">تصویر پروژه بعداً اضافه می‌شود</div><div class="listing-body"><span class="tag">سرمایه‌گذاری</span><h3>امتیاز پروژه در حال ساخت</h3><div class="meta"><span>۴ بلوک</span><span>•</span><span>فرصت سرمایه‌گذاری</span></div><div class="price">قیمت و شرایط: تماس</div></div></div>
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="section-title"><h2>خدمات پارسا</h2><p>تمرکز سایت روی تبدیل بازدیدکننده به مشتری واقعی است.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🏠</div><h3>خرید و فروش</h3><p>فایل‌یابی و معرفی واحدهای مناسب در حوزه تخصصی.</p></div>
+<div class="card"><div class="icon">🔑</div><h3>رهن و اجاره</h3><p>ثبت درخواست و معرفی گزینه‌های متناسب با شرایط مشتری.</p></div>
+<div class="card"><div class="icon">🔄</div><h3>تهاتر</h3><p>بررسی فایل‌های تهاتری و هماهنگی بین طرفین.</p></div>
+<div class="card"><div class="icon">🏗️</div><h3>امتیاز پروژه‌های در حال ساخت</h3><p>خرید و فروش امتیاز ۴ بلوک در حال ساخت، طبق شرایط و مدارک پروژه.</p></div>
+<div class="card"><div class="icon">💰</div><h3>سرمایه‌گذاری</h3><p>معرفی فرصت‌های سرمایه‌گذاری متناسب با هدف و بودجه مشتری.</p></div>
+<div class="card"><div class="icon">📋</div><h3>مشاوره و فایل‌یابی</h3><p>اگر فایل مناسب در سایت نبود، درخواستت را ثبت کن تا گزینه‌های مناسب بررسی شوند.</p></div>
+</div>
+</div>
+</section>
+
+<section id="request">
+<div class="container">
+<div class="section-title"><h2>ملک موردنظرت را پیدا می‌کنیم</h2><p>فرم را پر کن؛ درخواستت مستقیم برای پیگیری توسط مشاور آماده می‌شود.</p></div>
+<div class="card">
+<form onsubmit="sendRequest(event)">
+<div class="formgrid"><input id="name" required placeholder="نام و نام خانوادگی"><input id="phone" required placeholder="شماره تماس"></div>
+<div class="formgrid"><select id="kind"><option>خرید</option><option>اجاره</option><option>تهاتر</option><option>سرمایه‌گذاری</option><option>خرید/فروش امتیاز پروژه</option></select><input id="budget" placeholder="بودجه تقریبی"></div>
+<textarea id="details" placeholder="مثلاً: ۲ خواب، ۱۱۰ تا ۱۲۰ متر، طبقه بالا، شهرک خرازی..."></textarea>
+<button class="btn gold" type="submit">ارسال درخواست در واتساپ</button>
+</form>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="cta"><div><h2>برای فایل واقعی و قیمت روز تماس بگیر</h2><p>بهزاد پارسا (نجفی) — مشاور تخصصی املاک منطقه ۲۲ و ۲۱ تهران</p></div><a class="btn gold" href="tel:09103920194">۰۹۱۰۳۹۲۰۱۹۴</a></div>
+</div>
+</section>
+</main>
+<div class="bottom-bar"><a href="tel:09103920194">تماس مستقیم</a><a href="https://wa.me/989103920194" target="_blank" rel="noopener">واتساپ</a><a href="#request">درخواست ملک</a></div>
+
+<footer><div class="container footer-grid"><div>© پارسا | مشاوره تخصصی املاک</div><div>فروش • اجاره • تهاتر • سرمایه‌گذاری • امتیاز پروژه</div><div>نسخه اولیه؛ آماده تکمیل با عکس، فیلم، نقشه و فایل‌های واقعی</div></div></footer>
+<script>
+const filters=document.querySelectorAll('.filter'), cards=document.querySelectorAll('.listing');
+filters.forEach(btn=>btn.addEventListener('click',()=>{filters.forEach(x=>x.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;cards.forEach(c=>c.style.display=(f==='all'||c.dataset.type===f)?'block':'none')}));
+function sendRequest(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value, phone=document.getElementById('phone').value, kind=document.getElementById('kind').value, budget=document.getElementById('budget').value, details=document.getElementById('details').value;
+ const text=`سلام، من ${name} هستم.%0Aنوع درخواست: ${kind}%0Aبودجه: ${budget}%0Aشماره تماس: ${phone}%0Aتوضیحات: ${details}`;
+ window.open('https://wa.me/989103920194?text='+text,'_blank');
+}
+</script>
+</body>
+</html>
